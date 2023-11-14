@@ -101,7 +101,8 @@ main{
 }
 
 /* ------------ Media Queris ------------ */
-/* Version Tablet (entre 361 y 768)  */
+
+/* Tablet de 561px a 768px  */
 @media(min-width: 560px){
   /* --------- Main --------- */
     .section-product{
@@ -111,7 +112,7 @@ main{
   
     .product-card{
       width: 45%;
-      transition: all 0.5s;
+      transition: all 0.1s;
     }
   
     .product-card:hover{
@@ -119,7 +120,7 @@ main{
     }
 
     .description-product{
-      transition: all 0.5s;
+      transition: all 0.1s;
     }
 
     .product-card:hover .description-product{
@@ -135,7 +136,7 @@ main{
     }
   }
   
-  /* Version Desktop (de 769 hacia arriba) */
+  /* Desktop: de 1100px o más */
   @media(min-width: 1100px){
     .product-card{
       width: 23%;
