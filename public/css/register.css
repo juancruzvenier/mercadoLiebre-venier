@@ -38,6 +38,17 @@ main{
   margin: 25px auto;
 }
 
+#email:valid{
+  border: none;
+}
+
+
+
+#email:invalid{
+  border: 1px solid red;
+
+}
+
 
 legend{
   font-size: var(--Precios);
